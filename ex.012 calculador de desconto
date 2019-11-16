@@ -1,4 +1,4 @@
 //  mostre o valor de um produto com 5% de desconto
-Valor = int(input('Qual o valor do produto? '))
+Valor = int(input('Qual o valor do produto R$ ')
 d = int(Valor * 5 /100)
 print ( Valor - d)
