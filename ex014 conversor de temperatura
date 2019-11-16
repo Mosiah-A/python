@@ -1,0 +1,4 @@
+# convertor de temperatura
+c = float(input("Informe a temperadura em °C: "))
+f = 9 * c / 5 + 32
+print(' {} °C em Fahrenhet coresponde a {} °F '.format(c,f))
