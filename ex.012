@@ -1,0 +1,3 @@
+Valor = int(input('Qual o valor do produto? '))
+d = int(Valor * 5 /100)
+print ( Valor - d)
