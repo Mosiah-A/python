@@ -13,7 +13,7 @@ elif sexo == 1:
     ano = int(input('Qual ano você nasceu? '))
     ano_atual = date.today().year
     idade = ano_atual - ano
-    if ano > ano_atual or idade > 110:
+    if ano > ano_atual:
         print('\033[31mERRO, TENTE NOVAMENTE')
     else:
         print("Quem nasceu no ano {} tem \033[32m{} anos \033[mem {}".format(ano, idade, ano_atual))
@@ -31,3 +31,4 @@ elif sexo == 1:
             print('Seu alstamento será em \033[32m{}.'.format(ano + 18))
 else:
     print('\033[31mERRO')
+    
