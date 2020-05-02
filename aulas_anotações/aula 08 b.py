@@ -1,0 +1,6 @@
+#import random
+#num = random.randint(1,20)
+#print(num)
+
+import emoji
+print(emoji.emojize('Python é: thumbsup:', use_aliases=True))

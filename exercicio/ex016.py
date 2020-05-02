@@ -1,0 +1,9 @@
+# Crie um programa que leia um numero Real qualquer pelo teclado e mostre na tela a sua posiçao inteira
+
+'''from math import trunc
+
+num = float(input('Digite um numero: '))
+print(' O valor digitado foi {} e sua porção inteira é {}'.format(num, trunc(num)))'''
+
+num = float(input('Digite um numero: '))
+print('O valor digitado foi {} e sua porção inteira é {}'.format(num, int(num)))
